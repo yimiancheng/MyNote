@@ -59,6 +59,9 @@ $ git mv [file-original] [file-renamed]
 # 提交暂存区的指定文件到仓库区
 $ git commit [file1] [file2] ... -m [message]
 
+# 提交工作区自上次commit之后的变化，直接到仓库区 可省略 git add
+$ git commit -a
+
    ```
 
 ##### 2. 版本回退
