@@ -36,29 +36,32 @@
    git status
    git add README / git add [file1] [file2] ... / git add [dir]
    git commit -m "mod README"
-   git 
-   git diff master origin/master
    ```
    [git常用命令](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
    ```
-# 添加每个变化前，都会要求确认
-# 对于同一个文件的多处变化，可以实现分次提交
-$ git add -p
+git比较：
+git diff master origin/master / git diff --stat master origin/master
+
+# 显示工作区与当前分支最新commit之间的差异
+git diff HEAD
+
+# 显示暂存区和工作区的差异
+git diff
  
 # 删除工作区文件，并且将这次删除放入暂存区
-$ git rm [file1] [file2] ...
+git rm [file1] [file2] ...
  
 # 停止追踪指定文件，但该文件会保留在工作区
-$ git rm --cached [file]
+git rm --cached [file]
  
 # 改名文件，并且将这个改名放入暂存区
-$ git mv [file-original] [file-renamed]
+git mv [file-original] [file-renamed]
 
 # 提交暂存区的指定文件到仓库区
-$ git commit [file1] [file2] ... -m [message]
+git commit [file1] [file2] ... -m [message]
 
 # 提交工作区自上次commit之后的变化，直接到仓库区 可省略 git add
-$ git commit -a
+git commit -a
 
 # 当前分支与远程分支存在追踪关系，git pull就可以省略远程分支名 git pull origin
 # 当前分支只有一个追踪分支，连远程主机名都可以省略 git pull
