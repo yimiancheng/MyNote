@@ -58,6 +58,9 @@ $ git commit [file1] [file2] ... -m [message]
 # 提交工作区自上次commit之后的变化，直接到仓库区 可省略 git add
 $ git commit -a
 
+# 当前分支与远程分支存在追踪关系，git pull就可以省略远程分支名 git pull origin
+# 当前分支只有一个追踪分支，连远程主机名都可以省略 git pull
+git pull origin master
    ```
 
 ##### 2. 版本回退
@@ -237,4 +240,4 @@ git add .
 
 [csdn-git使用教程](https://blog.csdn.net/qq_36150631/article/details/81038485 "csdn-git使用教程")
 
-[csdn-git部署](https://blog.csdn.net/hanyuyang19940104/article/details/80194601 "git部署")
+[csdn-git部署](https://blog.csdn.net/hanyuyang19940104/article/details/80194601 "git部署")
