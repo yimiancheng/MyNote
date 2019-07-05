@@ -71,7 +71,11 @@ body {
 
 ---
 
+
+
 * * *
+
+
 
 * <font face="字体" size="字号" color="颜色">这里是需要突出显示的内容</font>
 
@@ -92,6 +96,79 @@ body {
 * <font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font>
 
    ![图片加载失败](E:\MyNote\assets\ChEi2lkiinaAHS4HAAGmDatweew80500_65x65.jpg "青岛 原浆啤酒 1L")
+   
+## excel table
+
+<table border="0" cellpadding="0" cellspacing="0" width="690" style="border-collapse:
+    collapse;table-layout:fixed;width:518pt">
+    <colgroup><col width="64" span="4" style="width:48pt">
+    <col width="82" style="mso-width-source:userset;mso-width-alt:2901;width:61pt">
+    <col width="126" style="mso-width-source:userset;mso-width-alt:4494;width:95pt">
+    <col width="34" style="mso-width-source:userset;mso-width-alt:1223;width:26pt">
+    <col width="64" span="3" style="width:48pt">
+    </colgroup><tbody><tr height="19" style="height:14.4pt">
+     <td height="19" width="64" style="height:14.4pt;width:48pt">省</td>
+     <td colspan="5" class="xl65" width="400" style="width:300pt">北京市</td>
+     <td colspan="4" rowspan="4" class="xl66" width="226" style="width:170pt">西马金润一区</td>
+    </tr>
+    <tr height="19" style="height:14.4pt">
+     <td height="19" style="height:14.4pt">市</td>
+     <td colspan="5" class="xl65">北京市</td>
+    </tr>
+    <tr height="19" style="height:14.4pt">
+     <td height="19" style="height:14.4pt">县</td>
+     <td colspan="5" class="xl65">丰台区</td>
+    </tr>
+    <tr height="19" style="height:14.4pt">
+     <td height="19" style="height:14.4pt">区域</td>
+     <td colspan="5" class="xl65">大红门街道</td>
+    </tr>
+    <!--[if supportMisalignedColumns]-->
+    <tr height="0" style="display:none">
+     <td width="64" style="width:48pt"></td>
+     <td width="64" style="width:48pt"></td>
+     <td width="64" style="width:48pt"></td>
+     <td width="64" style="width:48pt"></td>
+     <td width="82" style="width:61pt"></td>
+     <td width="126" style="width:95pt"></td>
+     <td width="34" style="width:26pt"></td>
+     <td width="64" style="width:48pt"></td>
+     <td width="64" style="width:48pt"></td>
+     <td width="64" style="width:48pt"></td>
+    </tr>
+    <!--[endif]-->
+   </tbody></table>
+
+##  table在线生成器
+
+[在线生成网址](http://www.tablesgenerator.com/html_tables "在线网址，不要css")
+
+<table  border="1">
+<tr><th>Header 1</th><th>Header 2</th><th>Header 3</th><th>Header 4</th><th>Header 5</th></tr>
+<tr><td>Row:1 Cell:1</td><td>Row:1 Cell:2</td><td>Row:1 Cell:3</td><td>Row:1 Cell:4</td><td>Row:1 Cell:5</td></tr>
+<tr><td>Row:2 Cell:1</td><td>Row:2 Cell:2</td><td>Row:2 Cell:3</td><td>Row:2 Cell:4</td><td>Row:2 Cell:5</td></tr>
+<tr><td>Row:3 Cell:1</td><td>Row:3 Cell:2</td><td>Row:3 Cell:3</td><td>Row:3 Cell:4</td><td>Row:3 Cell:5</td></tr>
+<tr><td>Row:4 Cell:1</td><td>Row:4 Cell:2</td><td>Row:4 Cell:3</td><td>Row:4 Cell:4</td><td>Row:4 Cell:5</td></tr>
+<tr><td>Row:5 Cell:1</td><td>Row:5 Cell:2</td><td>Row:5 Cell:3</td><td>Row:5 Cell:4</td><td>Row:5 Cell:5</td></tr>
+<tr><td>Row:6 Cell:1</td><td>Row:6 Cell:2</td><td>Row:6 Cell:3</td><td>Row:6 Cell:4</td><td>Row:6 Cell:5</td></tr>
+</table>
+
+<table>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td colspan="2">2</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+</table>
 
 # emoj表情符的使用
 
