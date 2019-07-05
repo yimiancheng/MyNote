@@ -1,7 +1,3 @@
-###  git教程
-
-
-
 #### git工作原理
 
 ![图片描述](https://img.mukewang.com/59c31e4400013bc911720340.png "工作")
@@ -175,7 +171,7 @@ git stash apply stash内容并不删除，需要使用命令git stash drop来删
 git stash pop 恢复的同时把stash内容也删除了
 git stash drop 只删除第一条
 ```
-##### 6. git多人写作
+##### 7. git多人写作
 
 > 当你从远程库克隆时候，实际上Git自动把本地的master分支和远程的master分支对应起来了，并且远程库的默认名称是origin。
 >
@@ -191,5 +187,17 @@ git branch --set-upstream-to=origin/dev 指定本地dev分支与远程origin/dev
 git pull
 ```
 
+##### 8. git tag
+> Git 也可以对某一时间点上的版本打上标签。人们在发布某个软件版本（比如 v1.0 等等）的时候
 
+```
+列显已有的标签: git tag / git tag -l 'v1.4.2.*'
+新建含附注的标签：git tag -a v1.4 -m 'my version 1.4'
+```
+
+
+
+#### 参考教程
+
+[csdn](https://blog.csdn.net/qq_36150631/article/details/81038485)
 
