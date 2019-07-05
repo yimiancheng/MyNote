@@ -195,6 +195,42 @@ git pull
 新建含附注的标签：git tag -a v1.4 -m 'my version 1.4'
 ```
 
+####  Git .gitignore
+
+> 在Git工作区的根目录下创建一个特殊的`.gitignore`文件，然后把要忽略的文件名填进去，Git就会自动忽略这些文件
+>
+> 定义Git全局的 .gitignore 文件: git config --global core.excludesfile ~/.gitignore
+
+
+##### 忽略规则的语法:
+
+- bin/: 忽略当前路径下的bin文件夹，该文件夹下的所有内容都会被忽略，不忽略 bin 文件
+
+- /bin: 忽略根目录下的bin文件
+
+- /*.c: 忽略 cat.c，不忽略 build/cat.c
+
+- debug/*.obj: 忽略 debug/io.obj，不忽略 debug/common/io.obj 和 tools/debug/io.obj
+
+- **/foo: 忽略/foo, a/foo, a/b/foo等
+
+- a/**/b: 忽略a/b, a/x/b, a/x/y/b等
+
+- !/bin/run.sh: 不忽略 bin 目录下的 run.sh 文件
+
+- *.log: 忽略所有 .log 文件
+
+- config.php: 忽略当前路径的 config.php 文件
+
+- *.py[cod]: 忽略所有 .pyc、.pyo 文件
+
+
+```
+git rm -r --cached . 先把本地暂存区删除
+git add .
+```
+
+
 
 
 #### 参考教程
