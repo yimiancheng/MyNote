@@ -235,5 +235,6 @@ git add .
 
 #### 参考教程
 
-[csdn](https://blog.csdn.net/qq_36150631/article/details/81038485)
+[csdn-git使用教程](https://blog.csdn.net/qq_36150631/article/details/81038485 "csdn-git使用教程")
 
+[csdn-git部署](https://blog.csdn.net/hanyuyang19940104/article/details/80194601 "git部署")
