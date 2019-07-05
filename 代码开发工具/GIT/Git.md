@@ -36,6 +36,8 @@
    git status
    git add README / git add [file1] [file2] ... / git add [dir]
    git commit -m "mod README"
+   git 
+   git diff master origin/master
    ```
    [git常用命令](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
    ```
