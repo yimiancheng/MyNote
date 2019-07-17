@@ -36,6 +36,12 @@
    git status
    git add README / git add [file1] [file2] ... / git add [dir]
    git commit -m "mod README"
+   
+   git remote add origin https://github.com/tugenhua0707/testgit.git
+   git push -u origin master
+   
+   git remote set-url origin https://github.com/xxx/repo.git
+   git push --all https://github.com/xxx/repo.git
    ```
    [git常用命令](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
    ```
